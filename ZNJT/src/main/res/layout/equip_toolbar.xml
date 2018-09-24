@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/equip_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/normal1_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/to_left" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="返回"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/normal1_back"/>
+        <TextView
+            android:id="@+id/normal_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="智能交通"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"/>
+        <Button
+            android:id="@+id/buttons1_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/colorPrimary"
+            android:text="解绑"
+            android:textSize="18dp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>

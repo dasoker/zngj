@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">途灵</string>
+    <string name="touch_to_focus">触摸屏幕对焦</string>
+    <string name="app_information">本软件由乐道智能科技股份有限公司开发\n
+        软件名称：途灵\n当前版本v1.0</string>
+    <string name="company_name">宁夏乐道智能科技股份有限公司</string>
+    <string name="app_version">v1.0</string>
+</resources>

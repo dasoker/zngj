@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/comit_boolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/normals1_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/to_left" />
+        <TextView
+            android:id="@+id/normal_backs_texts_view"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="返回"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/normals1_back"/>
+        <TextView
+            android:id="@+id/title_texts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="标题"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"/>
+
+        <ImageButton
+            android:id="@+id/comit_imagebutton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/commit_0"
+            android:scaleType="fitXY"
+            android:background="@color/colorPrimaryDark" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>

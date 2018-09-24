@@ -1,0 +1,7 @@
+<?xml version="1" encoding="utf-8"?>
+<paths xmlns:andropid="http://schems.android.com/apk/res/android"
+    >
+    <external-path
+        name="my_images"
+        path=""/>
+</paths>

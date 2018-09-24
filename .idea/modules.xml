@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZNGJ.iml" filepath="$PROJECT_DIR$/ZNGJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZNJT/ZNJT.iml" filepath="$PROJECT_DIR$/ZNJT/ZNJT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/idcardcamera/idcardcamera.iml" filepath="$PROJECT_DIR$/idcardcamera/idcardcamera.iml" />
+    </modules>
+  </component>
+</project>
